@@ -5,7 +5,7 @@ cp /home/ahadrox/Desktop/android-kernel/lavender/out/arch/arm64/boot/Image.gz-dt
 
 echo "Zipping kernel"
 
-zip -r9 UPDATE-Kernel.zip * -x .git README.md *placeholder
+zip -r9 UPDATE-Kernel.zip * -x .git README.md *placeholder zip-kernel.sh
 
 rm -rf Image.gz-dtb
 
